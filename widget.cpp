@@ -228,12 +228,12 @@ void Widget::chek_kN(){
 
 
         for(int i=0;i<12;i++){
-            plus[i]->setText(QString::number(plus[i]  ->text().toFloat()*koef));
+            plus[i] ->setText(QString::number(plus[i] ->text().toFloat()*koef));
             minus[i]->setText(QString::number(minus[i]->text().toFloat()*koef));
         }
 
-        prev = "kN";
-        data_change();
+       // prev = "kN";
+       // data_change();
 
     }
 }
